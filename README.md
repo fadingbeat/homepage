@@ -5,4 +5,4 @@ This is the so far result of reading through tutorials about HTML and CSS on dev
 fully understand and learn how to apply the knowledge: creating HTML structure of a website with modern "today's" CSS rules. Once I feel able to
 do so, I will continue to other technologies such as JavaScript and frameworks such as Vue.js or Node.js.
 
-The idea behind this project is to have a website or a webpage that would represent my work and interests to employers.
+The idea behind this project is to have a website or a webpage that would represent my work and interests to employers, and later on, a professional photography website.
