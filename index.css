@@ -2,19 +2,23 @@
 body, html {
   max-height: 100%;
   margin: 0;
-  background-color: lightsalmon;
+  background-color: darksalmon;
 
 }
 
 header ul {
-  position: relative;
+  position: fixed;
+  left: 45%;
+  margin-top: 0.1em;
+  top: 1.9em;
 
 
 }
 header li {
   border-radius: 3px;
   display: inline;
-  padding: 10px;
+  padding: 1em;
+  font-size: 1.5em;
   color: white;
   background-color: #c83737;
 }
@@ -25,6 +29,7 @@ header li:hover {
 }
 
 .bgimage {
+  margin-top: 3em;
   background-image: url("sunset.jpg");
   height: 0;
   max-width: 100%;
@@ -167,7 +172,7 @@ footer {
   bottom: 20px;
   width: 100%;
   height: 13%;
-  background-color: maroon;
+  background-color: firebrick;
   color: white;
   opacity: 0.5;
 }
@@ -189,10 +194,10 @@ footer span:last-of-type {
 }
 
 .rights {
-  font-size: 30px;
+  font-size: 20px;
 }
 strong {
-  font-size: 35px !important;
+  font-size: 5px !important;
 }
 
 
