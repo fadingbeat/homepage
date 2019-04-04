@@ -170,6 +170,10 @@ footer span:last-of-type {
   transform-origin: center;
 }
 
+.wrongs {
+  background-color: blue;
+}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -213,7 +217,7 @@ footer span:last-of-type {
   }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:375px) {
   #logo {
     width: 25px;
     height: 25px;
