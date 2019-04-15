@@ -1,5 +1,4 @@
-var foot = document.getElementsByClassName('rights');
-//or with jquery: var foot = $('.rights');
+//logo_animation
 document.getElementById("logo").addEventListener("mouseover", mouseOver);
 document.getElementById("logo").addEventListener("mouseout", mouseOut);
 
@@ -9,4 +8,9 @@ function mouseOver() {
 
 function mouseOut() {
   document.getElementById("logo").style.top = "0.8em";
+}
+
+//Click on button opens personal CV
+function onClick() {
+  window.open('file:///C:/CVPozegaNikolina.pdf');
 }
