@@ -46,7 +46,7 @@ header li:hover {
 }
 .about {
   box-sizing: border-box;
-  background-image: url("images/codebg1.png");
+  background-image: url("./images/codebg1.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50em;
@@ -57,13 +57,22 @@ header li:hover {
 
   box-sizing: border-box;
   padding: 10%;
-  background-image: url("images/jelvika1.jpg");
+  background-image: url("./images/jelvika1.jpg");
   filter: blur(8px);
   text-align: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50em;
+}
+
+/*attribute selector*/
+div[class="boxtwo-text"]{
+  filter: blur(0px) !important;
+}
+
+.boxtwo ~ h2 {
+  filter: none;
 }
 
 .boxtwo-text {
@@ -81,9 +90,7 @@ header li:hover {
     text-align: center;
 }
 
-.boxtwo-text h2 h1 {
-  filter: none;
-}
+
 
 header:first-of-type {
   top: 0.8em;
@@ -164,14 +171,10 @@ footer span:last-of-type {
   position: absolute;
   left:45%;
   top: 50%;
-  transform: translate(-50%; -50%);
+  transform: translate(-50% -50%);
   letter-spacing: normal;
   font-weight: bolder;
   transform-origin: center;
-}
-
-.wrongs {
-  background-color: blue;
 }
 
 .col-1 {width: 8.33%;}
@@ -217,7 +220,7 @@ footer span:last-of-type {
   }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:360px) {
   #logo {
     width: 25px;
     height: 25px;
