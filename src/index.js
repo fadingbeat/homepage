@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
-
+import NavBar from './navbar';
 
 
 // If you want your app to work offline and load faster, you can change
@@ -12,4 +10,4 @@ import './index.css';
 
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<NavBar />, document.getElementById('root'));
